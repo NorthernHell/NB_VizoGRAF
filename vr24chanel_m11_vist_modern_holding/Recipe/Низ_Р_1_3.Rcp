@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes"?>
+<RecipeDataSet xmlns="http://tempuri.org/RecipeDataSet.xsd">
+  <xs:schema id="RecipeDataSet" targetNamespace="http://tempuri.org/RecipeDataSet.xsd" xmlns:mstns="http://tempuri.org/RecipeDataSet.xsd" xmlns="http://tempuri.org/RecipeDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="RecipeDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="RecipeElement">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Tag" type="xs:string" minOccurs="0" />
+                <xs:element name="Length" type="xs:short" default="0" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:double" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="RecipeData">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Element1" type="xs:double" minOccurs="0" />
+                <xs:element name="Element2" type="xs:double" minOccurs="0" />
+                <xs:element name="Element3" type="xs:double" minOccurs="0" />
+                <xs:element name="Element4" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <RecipeElement>
+    <Name>Element1</Name>
+    <Tag>point__55_Ust_HiHi</Tag>
+    <Length>0</Length>
+    <DefaultValue>0</DefaultValue>
+  </RecipeElement>
+  <RecipeElement>
+    <Name>Element2</Name>
+    <Tag>point__55_Ust_Hi</Tag>
+    <Length>0</Length>
+    <DefaultValue>0</DefaultValue>
+  </RecipeElement>
+  <RecipeElement>
+    <Name>Element3</Name>
+    <Tag>point__55_Ust_Lo</Tag>
+    <Length>0</Length>
+    <DefaultValue>0</DefaultValue>
+  </RecipeElement>
+  <RecipeElement>
+    <Name>Element4</Name>
+    <Tag>point__55_Ust_LoLo</Tag>
+    <Length>0</Length>
+    <DefaultValue>0</DefaultValue>
+  </RecipeElement>
+  <RecipeData>
+    <Name>Нормальные</Name>
+    <Element1>0</Element1>
+    <Element2>0</Element2>
+    <Element3>0</Element3>
+    <Element4>0</Element4>
+  </RecipeData>
+  <RecipeData>
+    <Name>Экспериментальные</Name>
+    <Element1>0</Element1>
+    <Element2>0</Element2>
+    <Element3>0</Element3>
+    <Element4>0</Element4>
+  </RecipeData>
+</RecipeDataSet>
